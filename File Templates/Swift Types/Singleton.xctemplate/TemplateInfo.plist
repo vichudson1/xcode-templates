@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A Swift Singleton Class. 
+	CAUTION: You are now entering a piece of global state into your project. 
+	Perhaps you should reconsider your architecture, otherwise proceed at your own risk! </string>
+	<key>Summary</key>
+	<string>Create a new singleton class swift source file.</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Options</key>
+        <array>
+                <dict>
+                        <key>Identifier</key>
+                        <string>productName</string>
+                        <key>Required</key>
+                        <true/>
+                        <key>Name</key>
+                        <string>Class Name:</string>
+                        <key>Description</key>
+                        <string>The name of the Singleton Class to create</string>
+                        <key>Type</key>
+                        <string>text</string>
+                        <key>NotPersisted</key>
+                        <true/>
+                </dict>
+                <dict>
+                        <key>Description</key>
+                        <string>Method</string>
+                        <key>Identifier</key>
+                        <string>SharedInstanceName</string>
+                        <key>Default</key>
+                        <string>sharedInstance</string>
+                        <key>Name</key>
+                        <string>Shared Instance Name:</string>
+                        <key>Required</key>
+                        <string>YES</string>
+                        <key>Type</key>
+                        <string>text</string>
+                        <key>NotPersisted</key>
+                        <true/>
+                </dict>
+        </array>
+</dict>
+</plist>
