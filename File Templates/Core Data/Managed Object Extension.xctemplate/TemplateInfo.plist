@@ -29,11 +29,6 @@
 	<string>Create a new class extension for your Core Data model types.</string>
 	<key>SortOrder</key>
 	<string>1</string>
-	<key>Image</key>
-	<dict>
-		<key>FileTypeIcon</key>
-		<string>swift</string>
-	</dict>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
