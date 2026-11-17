@@ -3,6 +3,30 @@
 This contents repo should reside at `~/Library/Developer/Xcode/Templates/
 ` for your custom templates to show in Xcode's `File>New` dialog.
 
+```sh
+git clone https://github.com/vichudson1/xcode-templates.git ~/Library/Developer/Xcode/Templates
+```
+
+## What's Included
+
+| Group | Template | What it makes |
+|---|---|---|
+| Swift Types | Value Type | `struct` with public and private extensions |
+| Swift Types | Reference Type | `final class` with public and private extensions |
+| Swift Types | Enum | `enum` with a case placeholder |
+| Swift Types | Protocol with Extension | `protocol` plus a default-implementation extension |
+| Swift Types | Actor | `actor` with public and private extensions |
+| Swift Types | Observable Class | `@MainActor @Observable final class` for SwiftUI state |
+| Swift Types | Singleton | Shared-default class (`.shared`, open `init` for tests). Use sparingly! |
+| SwiftUI | View | SwiftUI `View` with a `#Preview` |
+| SwiftData | Model | `@Model final class` with extensions, CloudKit-friendly notes |
+| Testing | Test Suite | Swift Testing `@Suite` with a starter `@Test` |
+| Core Data | Managed Object Extension | Extension on an `NSManagedObject` subclass (legacy) |
+
+All file templates use `___FILEHEADER___`, so they pick up your custom header from `IDETemplateMacros.plist` if you have one.
+
+## Making Your Own
+
 The easiest way to create a new template is by copying one of Xcode's built in templates and modifying it. They can be found in the following locations.
 
 MacOS Project templates
