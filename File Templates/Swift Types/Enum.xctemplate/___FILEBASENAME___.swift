@@ -3,6 +3,6 @@
 import Foundation
 
 enum ___FILEBASENAMEASIDENTIFIER___ {
-	case <#case#>
+    case <#case#>
 }
 

@@ -10,28 +10,28 @@ import Foundation
 /// ONE small job only. If this starts running the whole app, you're building MPBank again.
 @MainActor // Swift 6: a static shared instance must be concurrency safe. Or make it an actor / Sendable.
 final class ___FILEBASENAMEASIDENTIFIER___ {
-	// Put Thy Public Instance Variables Here
+    // Put Thy Public Instance Variables Here
 
-	// Put Thy Private Instance Variables Here
-	// Don't forget to mark them private!!
+    // Put Thy Private Instance Variables Here
+    // Don't forget to mark them private!!
 
-	// Not private on purpose: tests and previews can create their own.
-	init() {}
+    // Not private on purpose: tests and previews can create their own.
+    init() {}
 }
 
 // MARK: - Static Members -
 extension ___FILEBASENAMEASIDENTIFIER___ {
-	static let ___VARIABLE_SharedInstanceName___ = ___FILEBASENAMEASIDENTIFIER___()
+    static let ___VARIABLE_SharedInstanceName___ = ___FILEBASENAMEASIDENTIFIER___()
 }
 
 // MARK: - Public Methods & Computed Properties -
 extension ___FILEBASENAMEASIDENTIFIER___ {
-	// Put Thy Public Methods & Computed Properties Here
+    // Put Thy Public Methods & Computed Properties Here
 
 }
 
 // MARK: - Private Methods & Computed Properties -
 private extension ___FILEBASENAMEASIDENTIFIER___ {
-	// Put Thy Private Methods & Computed Properties Here
+    // Put Thy Private Methods & Computed Properties Here
 
 }

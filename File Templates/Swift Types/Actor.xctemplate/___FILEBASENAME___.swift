@@ -3,9 +3,9 @@
 import Foundation
 
 actor ___FILEBASENAMEASIDENTIFIER___ {
-	// Put Thy Instance Variables Here (actor isolated)
+    // Put Thy Instance Variables Here (actor isolated)
 
-	init() {}
+    init() {}
 }
 
 // MARK: - Public Methods & Computed Properties -

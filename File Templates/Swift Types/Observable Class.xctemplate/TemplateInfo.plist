@@ -2,40 +2,40 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>AllowedTypes</key>
-	<array>
-		<string>public.swift-source</string>
-	</array>
-	<key>DefaultCompletionName</key>
-	<string>File</string>
-	<key>Description</key>
-	<string>An @Observable class for SwiftUI state.</string>
-	<key>Kind</key>
-	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
-	<key>MainTemplateFile</key>
-	<string>___FILEBASENAME___.swift</string>
-	<key>Options</key>
-	<array>
-		<dict>
-			<key>Description</key>
-			<string>The name of the observable class to create</string>
-			<key>Identifier</key>
-			<string>productName</string>
-			<key>Name</key>
-			<string>Class Name:</string>
-			<key>NotPersisted</key>
-			<true/>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>text</string>
-		</dict>
-	</array>
-	<key>SortOrder</key>
-	<string>6</string>
-	<key>Summary</key>
-	<string>Create a new @Observable class swift source file.</string>
-	<key>SupportsSwiftPackage</key>
-	<true/>
+    <key>AllowedTypes</key>
+    <array>
+        <string>public.swift-source</string>
+    </array>
+    <key>DefaultCompletionName</key>
+    <string>File</string>
+    <key>Description</key>
+    <string>An @Observable class for SwiftUI state.</string>
+    <key>Kind</key>
+    <string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+    <key>MainTemplateFile</key>
+    <string>___FILEBASENAME___.swift</string>
+    <key>Options</key>
+    <array>
+        <dict>
+            <key>Description</key>
+            <string>The name of the observable class to create</string>
+            <key>Identifier</key>
+            <string>productName</string>
+            <key>Name</key>
+            <string>Class Name:</string>
+            <key>NotPersisted</key>
+            <true/>
+            <key>Required</key>
+            <true/>
+            <key>Type</key>
+            <string>text</string>
+        </dict>
+    </array>
+    <key>SortOrder</key>
+    <string>6</string>
+    <key>Summary</key>
+    <string>Create a new @Observable class swift source file.</string>
+    <key>SupportsSwiftPackage</key>
+    <true/>
 </dict>
 </plist>

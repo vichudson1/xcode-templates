@@ -6,10 +6,10 @@ import Observation
 @MainActor
 @Observable
 final class ___FILEBASENAMEASIDENTIFIER___ {
-	// Stored properties are observed automatically.
-	// Mark anything SwiftUI should NOT track with @ObservationIgnored.
+    // Stored properties are observed automatically.
+    // Mark anything SwiftUI should NOT track with @ObservationIgnored.
 
-	init() {}
+    init() {}
 }
 
 // MARK: - Public Methods & Computed Properties -

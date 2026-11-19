@@ -3,13 +3,13 @@
 import Foundation
 
 struct ___FILEBASENAMEASIDENTIFIER___ {
-	<#code#>
+    <#code#>
 }
 
 extension ___FILEBASENAMEASIDENTIFIER___ {
-	
+
 }
 
 private extension ___FILEBASENAMEASIDENTIFIER___ {
-	
+
 }

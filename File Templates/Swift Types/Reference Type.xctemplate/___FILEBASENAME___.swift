@@ -3,13 +3,13 @@
 import Foundation
 
 final class ___FILEBASENAMEASIDENTIFIER___ {
-	<#code#>
+    <#code#>
 }
 
 extension ___FILEBASENAMEASIDENTIFIER___ {
-	
+
 }
 
 private extension ___FILEBASENAMEASIDENTIFIER___ {
-	
+
 }
