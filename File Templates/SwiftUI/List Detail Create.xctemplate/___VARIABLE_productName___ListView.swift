@@ -27,6 +27,7 @@ struct ___VARIABLE_productName:identifier___ListView: View {
                 }
             }
             .navigationTitle("___VARIABLE_productName:identifier___s")
+            .toolbarTitleDisplayMode(.inlineLarge)
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
                     Button("Add ___VARIABLE_productName:identifier___", systemImage: "plus") { isCreating = true }
