@@ -29,11 +29,7 @@ struct ___VARIABLE_productName:identifier___ListView: View {
             .navigationTitle("___VARIABLE_productName:identifier___s")
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {
-                    Button {
-                        isCreating = true
-                    } label: {
-                        Label("Add ___VARIABLE_productName:identifier___", systemImage: "plus")
-                    }
+                    Button("Add ___VARIABLE_productName:identifier___", systemImage: "plus") { isCreating = true }
                 }
             }
             .sheet(isPresented: $isCreating) {
