@@ -19,6 +19,7 @@ git clone https://github.com/vichudson1/xcode-templates.git ~/Library/Developer/
 | Swift Types | Observable Class | `@MainActor @Observable final class` for SwiftUI state |
 | Swift Types | Singleton | Shared-default class (`.shared`, open `init` for tests). Use sparingly! |
 | SwiftUI | View | SwiftUI `View` with a `#Preview` |
+| SwiftUI | List Detail Create | 3 files: `ListView`, `DetailView`, `CreateView`. Works right away with sample strings |
 | SwiftData | Model | `@Model final class` with extensions, CloudKit-friendly notes |
 | Testing | Test Suite | Swift Testing `@Suite` with a starter `@Test` |
 
