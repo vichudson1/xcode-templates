@@ -21,7 +21,6 @@ git clone https://github.com/vichudson1/xcode-templates.git ~/Library/Developer/
 | SwiftUI | View | SwiftUI `View` with a `#Preview` |
 | SwiftData | Model | `@Model final class` with extensions, CloudKit-friendly notes |
 | Testing | Test Suite | Swift Testing `@Suite` with a starter `@Test` |
-| Core Data | Managed Object Extension | Extension on an `NSManagedObject` subclass (legacy) |
 
 All file templates use `___FILEHEADER___`, so they pick up your custom header from `IDETemplateMacros.plist` if you have one.
 
